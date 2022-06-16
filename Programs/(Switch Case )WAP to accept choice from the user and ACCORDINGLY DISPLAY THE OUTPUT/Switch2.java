@@ -2,7 +2,7 @@ package Anudip_programe;
 
 import java.util.Scanner;
 
-public class nested_p2 {
+public class Switch2{
 
 	public static void main(String[] args) {
 //		WAP to accept choice from the user and aCCORDINGLY DISPLAY THE OUTPUT
@@ -13,14 +13,16 @@ public class nested_p2 {
 
 		Scanner sc = new Scanner(System.in);
 		
+		//creating list for user
 		System.out.println("Select the Options :- \n 1: Check Even and Odd No.\n 2: Check Square\n 3: Check Vowel or Not\n 4:Greater Between three No");
 		
 		System.out.print("Enter your Choice = ");
 		int choice = sc.nextInt();
 		
-		
+		// using Switch
 		switch(choice) {
 		case 1: 
+			// for even/odd No.
 			System.out.println("Enter the Number = ");
 			int n = sc.nextInt();
 			  if(n%2==0) {
@@ -29,12 +31,12 @@ public class nested_p2 {
 				  System.out.println(n+" "+"is Odd No.");
 			  }
 		break;
-		case 2: 
+		case 2: // for squaring the number
 			System.out.print("Enter the Number = ");
 			int s = sc.nextInt();
 			System.out.println("Square = "+" "+s*s);
 		break;
-		case 3:
+		case 3: // check vowel or not
 			System.out.println("Enter your Character = ");
 			char alph = sc.next().charAt(0);	
 			switch(alph) {
@@ -52,7 +54,7 @@ public class nested_p2 {
 				System.out.println(alph+"Consunent");
 			}
 		break;
-		case 4: 
+		case 4: //check Greater Number.
 			System.out.println("Enter the Value A = ");
 			int a = sc.nextInt();
 			
