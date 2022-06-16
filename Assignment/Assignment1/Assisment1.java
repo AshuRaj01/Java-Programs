@@ -2,12 +2,12 @@ package Assisment;
 
 import java.util.Scanner;
 
-public class Assisment1 {
+public class Opreators{
 
 	public static void main(String[] args) {
 		// Write a program to perform operators with the help of function.
 		Scanner sc = new Scanner(System.in);
-		//arithmetic
+	
 		//System.out.println("\t\t\t\t\t\t\tArithmetic Optrators\t\t\t\t\t\t\t\t");
 		System.out.print("Enter the Value A = ");
 		int a = sc.nextInt();
