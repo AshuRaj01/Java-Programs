@@ -2,23 +2,25 @@ package loops;
 
 import java.util.Scanner;
 
-public class l1 {
+public class Menu_list{
 
 	public static void main(String[] args) {
-	
+	        
+		//for user input
 		Scanner sc= new Scanner(System.in);
 		
 		int total = 0;
 		char ans;
 		System.out.println("\t\t\t Srivastav HOTEL ");
 		
-		do {
+		//while loop
+		do {   //creating list
 			System.out.println("Menu :- \n 1: Starter's\n 2: Main Cours \n 3: Dessert");
 			System.out.print("Enter your Order :");
 			int choice = sc.nextInt();
 			
 			switch(choice) {
-			case 1 : 
+			case 1 :  //creating list
 				   System.out.println("Starter's Are :- \n 1: Aloo Pakora = Rs 20 \n 2: Samosa = Rs 15 \n 3: Veg Manchurian = Rs 120");
 				   System.out.print("Enter the Iteam :-");
 				     int ch1 = sc.nextInt();
@@ -41,7 +43,7 @@ public class l1 {
 				    		 System.out.println(" Please Enter Vaild Input");
 				     }
 				     break;
-			case 2 :
+			case 2 ://creating list
 				System.out.println("Main Cours are :- \n1: CEDAR-PLANK SALMON = Rs 140 \n2: SEARED SCALLOPS WITH BROWN AND LEMON PAN SAUCE = Rs 90 \n3: GIRLLED PIZZA = Rs 180 ");
 				System.out.print("Enter the Iteam :-");
 				int main = sc.nextInt();
@@ -64,7 +66,7 @@ public class l1 {
 			    		 System.out.println(" Please Enter Vaild Input");
 			     }
 				break;
-			case 3 : 
+			case 3 : //creating list
 				System.out.println("Dessert's are :- \n1: Classic chocolate mousse = Rs 50 \n2: Fudge Ice-Cream = Rs 40 \n3: Chocolate Coolie Icebox Dessert = Rs 120 ");
 				System.out.print("Enter the Iteam :-");
 				int dessert = sc.nextInt();
