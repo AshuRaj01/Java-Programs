@@ -1,6 +1,6 @@
 package loops;
 
-public class pattern2 {
+public class p2 {
 
 	public static void main(String[] args) {
 //		*
