@@ -1,6 +1,6 @@
 package loops;
 
-public class pattern5 {
+public class p4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
