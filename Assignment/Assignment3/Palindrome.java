@@ -2,7 +2,7 @@ package Assisment;
 
 import java.util.Scanner;
 
-public class a3 {
+public class Palindrome{
 
 	public static void main(String[] args) {
 		// WAP to accept a no from user and check it is palindrom or not .
