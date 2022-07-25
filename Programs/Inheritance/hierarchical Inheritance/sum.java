@@ -1,6 +1,6 @@
 package hierarchical_Inheritance;
 
-public class demo1 extends demo
+public class sum_n extends main
 {
 		
 		public static void sum()
