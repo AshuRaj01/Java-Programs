@@ -1,0 +1,16 @@
+
+//4th Step
+
+package multi_level_inheritance;
+
+public class print {
+
+	public static void main(String[] args) {
+		
+		System.out.println("\t\t\t\t\tMulti Level Inheritance\t\t\t\t\t");
+		vewols obj = new vewols();
+		obj.swap();
+		obj.greater();
+		obj.vowel();
+
+	}
