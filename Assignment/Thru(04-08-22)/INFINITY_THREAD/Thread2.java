@@ -1,3 +1,5 @@
+// Step 2:
+
 package lab04_08;
 
 public class Thread2  extends Thread
